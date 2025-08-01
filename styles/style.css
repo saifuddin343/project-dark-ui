@@ -272,7 +272,7 @@ nav div {
     nav {
         padding: 10px;
         border-radius: 10px;
-        max-width: 95%;
+        max-width: 88%;
     }
 
     nav h2 {
@@ -282,7 +282,7 @@ nav div {
     }
 
     header {
-        padding-top: 20px;
+        padding-top: 30px;
         background: linear-gradient(to top, #05002044, #050020a2), url('../assets/banner-bg.jpeg');
         background-position: top;
         height: fit-content;
@@ -299,6 +299,7 @@ nav div {
         width: 85%;
         margin: 80px auto;
     }
+
     .banner-content h6 {
         font-size: 18px;
         text-align: left;
@@ -317,32 +318,40 @@ nav div {
         max-width: 80%;
         margin: 0 0;
     }
-    .square, .arrow-down {
+
+    .square,
+    .arrow-down {
         display: none;
     }
+
     .boxes {
         position: relative;
         flex-direction: column;
-        max-width: 80%;
+        max-width: 85%;
         margin: 50px auto 0;
         gap: 24px;
     }
+
     .box {
         padding: 20px;
         border-radius: 10px;
     }
+
     .box h3 {
         font-size: 16px;
         margin: 16px 0 10px;
     }
+
     .box p {
         font-size: 14px;
         margin-bottom: 16px;
     }
+
     .btn3 {
         font-size: 10px;
         padding: 10px;
     }
+
     .box img {
         width: 30px;
     }
