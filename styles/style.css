@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Ubuntu';
+    max-width: 1920px;
+    margin: 0 auto;
+    background-color: #050020;
+    color: white;
+}
+
+header {
+    background: url('../assets/banner-bg.jpeg');
+    height: 1200px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 60px;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+nav {
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 40px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 0 10px rgba(68, 0, 255, 0.09);
+    backdrop-filter: blur(20px);
+}
+
+nav h2 {
+    font-family: 'Paytone One';
+    font-size: 32px;
+    font-weight: 500;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 60px;
+}
+nav ul li a {
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.75);
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+nav div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+}
+.btn {
+    color: #050020;
+    font-weight: 700;
+    font-size: 18px;
+    background-color: rgb(250, 246, 255);
+    padding: 18px 36px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    box-shadow: 0 0 10px rgba(68, 0, 255, 0.09);
+}
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.09);
+    color: white;
+    scale: 0.90;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.btn:active {
+    scale: 0.82;
+    background-color: rgba(255, 255, 255, 0.08);
+    color: white;
+}
+.btn2 {
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.09);
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    padding: 18px 36px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(68, 0, 255, 0.09);
+}
+.btn2:hover {
+    background-color: rgb(250, 246, 255);
+    color: #050020;
+    scale: 0.90;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.btn2:active {
+    scale: 0.82;
+    background-color: rgba(250, 246, 255, 0.9);
+}
+.banner {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-content h6 {
+    font-size: 22px;
+    font-weight: normal;
+    text-align: center;
+}
+.banner-content h2 {
+    font-weight: 700;
+    font-size: 58px;
+    max-width: 65%;
+    margin: 16px auto;
+    text-align: center;
+}
+.banner-content p {
+    font-size: 18px;
+    text-align: center;
+    max-width: 50%;
+    margin: 0 auto;
+}
+.square {
+    width: 0;
+    height: 0;
+    margin: 20px auto 0;
+    border: 2px solid;
+    border-top: 30px solid rgb(250, 246, 255);
+}
+.arrow-down {
+  width: 0;
+  height: 0;
+  margin: 0 auto;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 7px solid rgb(250, 246, 255); 
+}
+.boxes .box img {
+    filter: invert(100%);
+    width: 50px;
+}
+.box h3 {
+    font-size: 22px;
+    font-weight: 500;
+    margin: 30px 0 16px;
+}
+.box p {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 30px;
+    max-width: 90%;
+    margin: 0 auto; 
+    position: absolute;
+    bottom: 80px;
+}
+.box {
+    padding: 40px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 0 10px rgba(68, 0, 255, 0.09);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    backdrop-filter: blur(20px);
+}
+.btn3 {
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    padding: 18px 36px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(68, 0, 255, 0.09);
+}
+.btn3:hover {
+    background-color: rgb(250, 246, 255);
+    color: #050020;
+    scale: 0.90;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.btn3:active {
+    scale: 0.82;
+    background-color: rgba(250, 246, 255, 0.9);
+}
