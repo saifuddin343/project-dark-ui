@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: 'Ubuntu';
     max-width: 1920px;
@@ -32,7 +33,7 @@ nav {
     padding: 24px 40px;
     background-color: rgba(255, 255, 255, 0.05);
     border-radius: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.10);
     box-shadow: 0 0 10px rgba(68, 0, 255, 0.09);
     backdrop-filter: blur(20px);
 }
@@ -42,6 +43,7 @@ nav h2 {
     font-size: 32px;
     font-weight: 500;
 }
+
 nav ul {
     display: flex;
     justify-content: center;
@@ -49,21 +51,25 @@ nav ul {
     list-style: none;
     gap: 60px;
 }
+
 nav ul li a {
     font-size: 22px;
     color: rgba(255, 255, 255, 0.75);
     text-decoration: none;
 }
+
 nav ul li a:hover {
     color: white;
     transition: all 0.2s ease-in-out;
 }
+
 nav div {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 28px;
 }
+
 .btn {
     color: #050020;
     font-weight: 700;
@@ -74,6 +80,7 @@ nav div {
     border: 1px solid rgba(255, 255, 255, 0.09);
     box-shadow: 0 0 10px rgba(68, 0, 255, 0.09);
 }
+
 .btn:hover {
     background-color: rgba(255, 255, 255, 0.09);
     color: white;
@@ -81,11 +88,13 @@ nav div {
     cursor: pointer;
     transition: all 0.2s ease-in-out;
 }
+
 .btn:active {
     scale: 0.82;
     background-color: rgba(255, 255, 255, 0.08);
     color: white;
 }
+
 .btn2 {
     color: white;
     font-weight: 700;
@@ -96,6 +105,7 @@ nav div {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(68, 0, 255, 0.09);
 }
+
 .btn2:hover {
     background-color: rgb(250, 246, 255);
     color: #050020;
@@ -103,10 +113,12 @@ nav div {
     cursor: pointer;
     transition: all 0.2s ease-in-out;
 }
+
 .btn2:active {
     scale: 0.82;
     background-color: rgba(250, 246, 255, 0.9);
 }
+
 .banner {
     height: 70%;
     width: 100%;
@@ -115,11 +127,13 @@ nav div {
     justify-content: center;
     align-items: center;
 }
+
 .banner-content h6 {
     font-size: 22px;
     font-weight: normal;
     text-align: center;
 }
+
 .banner-content h2 {
     font-weight: 700;
     font-size: 58px;
@@ -127,12 +141,14 @@ nav div {
     margin: 16px auto;
     text-align: center;
 }
+
 .banner-content p {
     font-size: 18px;
     text-align: center;
     max-width: 50%;
     margin: 0 auto;
 }
+
 .square {
     width: 0;
     height: 0;
@@ -140,38 +156,44 @@ nav div {
     border: 2px solid;
     border-top: 30px solid rgb(250, 246, 255);
 }
+
 .arrow-down {
-  width: 0;
-  height: 0;
-  margin: 0 auto;
-  border-left: 7px solid transparent;
-  border-right: 7px solid transparent;
-  border-top: 7px solid rgb(250, 246, 255); 
+    width: 0;
+    height: 0;
+    margin: 0 auto;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 7px solid rgb(250, 246, 255);
 }
+
 .boxes .box img {
     filter: invert(100%);
     width: 50px;
 }
+
 .box h3 {
     font-size: 22px;
     font-weight: 500;
     margin: 30px 0 16px;
 }
+
 .box p {
     color: rgba(255, 255, 255, 0.75);
     font-size: 18px;
     margin-bottom: 40px;
 }
+
 .boxes {
     display: flex;
     justify-content: space-between;
     align-items: stretch;
     gap: 30px;
     max-width: 90%;
-    margin: 0 auto; 
+    margin: 0 auto;
     position: absolute;
-    bottom: 80px;
+    bottom: 70px;
 }
+
 .box {
     padding: 40px;
     border-radius: 20px;
@@ -184,6 +206,7 @@ nav div {
     justify-content: space-between;
     backdrop-filter: blur(20px);
 }
+
 .btn3 {
     color: white;
     font-weight: 700;
@@ -194,6 +217,7 @@ nav div {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(68, 0, 255, 0.09);
 }
+
 .btn3:hover {
     background-color: rgb(250, 246, 255);
     color: #050020;
@@ -201,7 +225,125 @@ nav div {
     cursor: pointer;
     transition: all 0.2s ease-in-out;
 }
+
 .btn3:active {
     scale: 0.82;
     background-color: rgba(250, 246, 255, 0.9);
+}
+
+.menu {
+    display: none;
+}
+
+.menu img {
+    filter: invert(100%);
+    width: 24px;
+}
+
+@media screen and (max-width: 576px) {
+    nav ul {
+        display: none;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+        padding: 7px;
+        border-radius: 5px;
+        background-color: rgba(255, 255, 255, 0.09);
+        border: 1px solid rgba(255, 255, 255, 0.09);
+        box-shadow: 0 0 10px rgba(68, 0, 255, 0.09);
+    }
+
+    .menu:hover {
+        scale: 0.90;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+    }
+
+    .menu:active {
+        scale: 0.82;
+        background-color: rgba(166, 162, 170, 0.9);
+    }
+
+    nav {
+        padding: 10px;
+        border-radius: 10px;
+        max-width: 95%;
+    }
+
+    nav h2 {
+        font-size: 24px;
+        text-align: right;
+        width: 100%;
+    }
+
+    header {
+        padding-top: 20px;
+        background: linear-gradient(to top, #05002044, #050020a2), url('../assets/banner-bg.jpeg');
+        background-position: top;
+        height: fit-content;
+    }
+
+    /* Banner */
+    .banner {
+        height: 100%;
+        width: 100%;
+        justify-content: start;
+    }
+
+    .banner-content {
+        width: 85%;
+        margin: 80px auto;
+    }
+    .banner-content h6 {
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .banner-content h2 {
+        font-size: 36px;
+        max-width: 85%;
+        margin: 16px 0;
+        text-align: left;
+    }
+
+    .banner-content p {
+        font-size: 16px;
+        text-align: left;
+        max-width: 80%;
+        margin: 0 0;
+    }
+    .square, .arrow-down {
+        display: none;
+    }
+    .boxes {
+        position: relative;
+        flex-direction: column;
+        max-width: 80%;
+        margin: 50px auto 0;
+        gap: 24px;
+    }
+    .box {
+        padding: 20px;
+        border-radius: 10px;
+    }
+    .box h3 {
+        font-size: 16px;
+        margin: 16px 0 10px;
+    }
+    .box p {
+        font-size: 14px;
+        margin-bottom: 16px;
+    }
+    .btn3 {
+        font-size: 10px;
+        padding: 10px;
+    }
+    .box img {
+        width: 30px;
+    }
 }
