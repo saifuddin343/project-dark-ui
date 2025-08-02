@@ -282,7 +282,7 @@ nav div {
     }
 
     header {
-        padding-top: 30px;
+        padding-top: 40px;
         background: linear-gradient(to top, #05002044, #050020a2), url('../assets/banner-bg.jpeg');
         background-position: top;
         height: fit-content;
@@ -354,5 +354,216 @@ nav div {
 
     .box img {
         width: 30px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 799px) {
+    .menu {
+        display: flex;
+    }
+
+    .menu img {
+        width: 40px;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    nav {
+        padding: 20px;
+        gap: 20px;
+        max-width: 88%;
+        border-radius: 16px;
+        margin-bottom: 240px;
+    }
+
+    nav h2 {
+        font-size: 28px;
+        flex-grow: 1;
+    }
+
+    nav div {
+        gap: 14px;
+    }
+
+    .btn,
+    .btn2 {
+        font-size: 18px;
+        padding: 12px 20px;
+        border-radius: 8px;
+    }
+
+    header {
+        padding-top: 40px;
+        background: linear-gradient(to top, #05002044, #050020a2), url('../assets/banner-bg.jpeg');
+        background-position: top;
+        height: auto;
+        background-size: cover;
+    }
+
+    .banner-content h6 {
+        font-size: 20px;
+    }
+
+    .banner-content h2 {
+        font-size: 42px;
+        max-width: 85%;
+        margin: 12px auto;
+    }
+
+    .banner-content p {
+        font-size: 16px;
+        max-width: 70%;
+    }
+
+    .square {
+        width: 0;
+        height: 0;
+        margin: 14px auto 0;
+        border: 2px solid;
+        border-top: 30px solid rgb(250, 246, 255);
+    }
+
+    .arrow-down {
+        width: 0;
+        height: 0;
+        margin: 0 auto;
+        border-left: 7px solid transparent;
+        border-right: 7px solid transparent;
+        border-top: 7px solid rgb(250, 246, 255);
+    }
+
+    .boxes .box img {
+        width: 40px;
+    }
+
+    .box h3 {
+        font-size: 20px;
+        margin: 24px 0 12px;
+    }
+
+    .box p {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    .boxes {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: stretch;
+        gap: 24px;
+        max-width: 85%;
+        margin: 100px auto 40px;
+        position: relative;
+    }
+
+    .box {
+        padding: 25px;
+        border-radius: 16px;
+    }
+
+    .btn3 {
+        font-size: 14px;
+        padding: 12px 24px;
+    }
+}
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+    .menu {
+        display: flex;
+    }
+
+    .menu img {
+        width: 50px;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    nav {
+        padding: 30px;
+        gap: 30px;
+        max-width: 88%;
+        border-radius: 18px;
+        margin-bottom: 350px;
+    }
+
+    nav h2 {
+        font-size: 40px;
+        flex-grow: 1;
+    }
+
+    nav div {
+        gap: 14px;
+    }
+
+    .btn,
+    .btn2 {
+        font-size: 22px;
+        padding: 16px 28px;
+        border-radius: 12px;
+    }
+
+    header {
+        padding-top: 70px;
+        background: linear-gradient(to bottom, #0500201f, #05002063), url('../assets/banner-bg.jpeg');
+        background-size: cover;
+        background-position: center;
+        height: auto;
+    }
+
+    .banner-content h6 {
+        font-size: 24px;
+    }
+
+    .banner-content h2 {
+        font-size: 50px;
+        max-width: 85%;
+        margin: 14px auto;
+    }
+
+    .banner-content p {
+        font-size: 20px;
+        max-width: 70%;
+    }
+
+    .boxes .box img {
+        width: 50px;
+    }
+
+    .box h3 {
+        font-size: 22px;
+        margin: 28px 0 16px;
+    }
+
+    .box p {
+        font-size: 18px;
+        margin-bottom: 36px;
+    }
+
+    .boxes {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: stretch;
+        gap: 28px;
+        max-width: 85%;
+        margin: 100px auto 40px;
+        position: relative;
+    }
+
+    .box {
+        padding: 30px;
+        border-radius: 18px;
+    }
+
+    .btn3 {
+        font-size: 16px;
+        padding: 14px 28px;
+    }
+}
+@media screen and (min-width: 1200px) and (max-width: 1450px) {
+    .boxes {
+        bottom: 50px;
     }
 }
