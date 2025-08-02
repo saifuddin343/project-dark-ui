@@ -239,6 +239,148 @@ nav div {
     filter: invert(100%);
     width: 24px;
 }
+.sec2 {
+    max-width: 90%;
+    margin: 0 auto 100px;
+}
+.sec2 > h2 {
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom: 70px;
+}
+.sec2-graph {
+    width: 550px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    position: relative;
+}
+.sec2-graph-bg {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    height: 100%;
+    align-items: end;
+}
+.sec2-graph-top {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    height: 100%;
+    align-items: end;
+    position: absolute;
+    top: 0;
+}
+.sec2-1 {
+    background-color: rgba(210, 183, 255, 0.15);
+    height: 70%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 20px;
+}
+.sec2-2 {
+    background-color: rgba(210, 183, 255, 0.15);
+    height: 50%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+.sec2-3 {
+    background-color: rgba(210, 183, 255, 0.15);
+    height: 30%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 20px;
+}
+.sec2-4 {
+    background-color: #8740FF;
+    height: 60%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+    border-right: 1px solid rgba(255, 255, 255, 0.25);
+}
+.sec2-5 {
+    background-color: #7422FF;
+    height: 40%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+    border-right: 1px solid rgba(255, 255, 255, 0.25);
+}
+.sec2-6 {
+    background-color: #5F00FF;
+    height: 20%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+}
+.sec2-graph-txt {
+    position: absolute;
+    width: 100%;
+    bottom: 35%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.graph-txt1 {
+    margin-bottom: 200px;
+    font-size: 20px;
+    font-weight: 700;
+    display: grid;
+}
+.graph-txt2 {
+    font-size: 20px;
+    font-weight: 700;
+    display: grid;
+}
+.graph-txt3 {
+    display: grid;
+    margin-top: 200px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.sec2-graph-txt span {
+    font-size: 16px;
+    margin-top: 6px;
+    font-weight: normal;
+}
+.sec2-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+}
+.sec2-container > div {
+    width: 50%;
+}
+.sec2-title {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 40px;
+    margin-right: 40px;
+}
+.sec2-title h2 {
+    font-size: 48px;
+    font-weight: normal;
+}
+.sec2-title p {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 20px;
+}
+.sec2-title2 {
+    display: flex;
+}
+.description {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 24px;
+}
+.subtitle {
+    font-size: 24px;
+    margin: 40px 0;
+}
+
 
 @media screen and (max-width: 576px) {
     nav ul {
