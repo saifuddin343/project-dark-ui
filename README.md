@@ -2,8 +2,8 @@
 
 A modern, responsive landing page built for practice and UI/UX skill development.
 
-[Live Demo](https://saifuddin343.github.io/project-dark-ui/)  
-[Design Reference](https://shorturl.at/tXDM9)
+<a href="https://saifuddin343.github.io/project-dark-ui/" target="_blank" rel="noopener">Live Demo</a>  
+<a href="https://shorturl.at/tXDM9" target="_blank" rel="noopener">Design Reference</a>
 
 ---
 
