@@ -2,14 +2,20 @@
 
 A modern, responsive landing page built for practice and UI/UX skill development.
 
-<a href="https://saifuddin343.github.io/project-dark-ui/" target="_blank" rel="noopener">Live Demo</a>  
-<a href="https://shorturl.at/tXDM9" target="_blank" rel="noopener">Design Reference</a>
+[Live Demo](https://saifuddin343.github.io/project-dark-ui/)  
+[Design Reference](https://shorturl.at/tXDM9)
 
 ---
 
 ## ✨ Description
 
 Dark UI is a clean, dark-themed landing page featuring a hero section, feature highlights, statistics, testimonials, and a call-to-action footer. The project demonstrates advanced CSS (Grid, Flexbox) and modern UI/UX best practices.
+
+---
+
+## 📸 Screenshots
+
+![Dark UI Screenshot](screenshot.png)
 
 ---
 
@@ -24,10 +30,29 @@ Dark UI is a clean, dark-themed landing page featuring a hero section, feature h
 
 ---
 
+## 🧑‍💻 Installation
+
+1. Clone the repo: git clone https://github.com/saifuddin343/project-dark-ui.git
+2. Open `index.html` in your browser.
+
+---
+
 ## 🛠️ Tech Stack
 
 - HTML5
 - CSS3 (Grid, Flexbox)
+
+---
+
+## 🙏 Credits
+
+- [Design Reference](https://shorturl.at/tXDM9)
+
+---
+
+## 👤 Author
+
+- [Saifuddin343](https://github.com/saifuddin343)
 
 ---
 
