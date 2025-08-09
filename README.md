@@ -13,7 +13,7 @@ Dark UI is a clean, dark-themed landing page featuring a hero section, feature h
 
 ---
 
-## 📸 Screenshots
+## 📸 Visual Overview
 
 ![Dark UI Screenshot](assets/screenshot.jpg)
 
