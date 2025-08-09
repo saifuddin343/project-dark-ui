@@ -15,7 +15,7 @@ Dark UI is a clean, dark-themed landing page featuring a hero section, feature h
 
 ## 📸 Screenshots
 
-![Dark UI Screenshot](screenshot.png)
+![Dark UI Screenshot](assets/screenshot.jpg)
 
 ---
 
@@ -30,23 +30,10 @@ Dark UI is a clean, dark-themed landing page featuring a hero section, feature h
 
 ---
 
-## 🧑‍💻 Installation
-
-1. Clone the repo: git clone https://github.com/saifuddin343/project-dark-ui.git
-2. Open `index.html` in your browser.
-
----
-
 ## 🛠️ Tech Stack
 
 - HTML5
 - CSS3 (Grid, Flexbox)
-
----
-
-## 🙏 Credits
-
-- [Design Reference](https://shorturl.at/tXDM9)
 
 ---
 
